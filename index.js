@@ -11,7 +11,7 @@ var mongoConnected = false;
 
 const JWT_SECRET = 'ChaitanyaChandra<Chay@outlook.in>'
 
-var mongoURL = process.env.MONGO_ENDPOINT || "mongodb://localhost:27017/login-app-db";
+var mongoURL = process.env.MONGO_ENDPOINT || "mongodb+srv://saikrishna:saikrishna@cluster0.vekipeh.mongodb.net/login-app-db?retryWrites=true&w=majority";
 
 var app_version = process.env.APP_VERSION || "0.0"
 
